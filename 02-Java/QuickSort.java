@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Quicksort {
+public class QuickSort {
     public static void quicksort(int[] arr, int inicio, int fim) {
         if (inicio < fim) {
             int pivoIndice = particionar(arr, inicio, fim);
