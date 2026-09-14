@@ -1,5 +1,5 @@
 public class Somatorio {
-    public static int somatorio(int[] numeros) {
+    public static int Somatorio(int[] numeros) {
         int soma = 0;
         for (int num : numeros) {
             soma += num;
