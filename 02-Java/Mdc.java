@@ -1,4 +1,4 @@
-public class MDC {
+public class Mdc {
     public static int mdc(int a, int b) {
         while (b != 0) {
             int resto = a % b;
