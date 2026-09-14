@@ -1,4 +1,4 @@
-public class ContagemInteiros {
+public class Contagem {
     public static int contarInteirosEntrePrimeiroEN(double[] conjunto, double n) {
         if (conjunto.length == 0) return 0;
 
