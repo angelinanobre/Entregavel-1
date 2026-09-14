@@ -1,4 +1,4 @@
-public class NumeroPrimo {
+public class Primo {
     public static boolean esPrimo(int n) {
         if (n <= 1) return false;
 
