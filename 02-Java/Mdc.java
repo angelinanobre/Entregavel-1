@@ -1,5 +1,5 @@
 public class Mdc {
-    public static int mdc(int a, int b) {
+    public static int Mdc(int a, int b) {
         while (b != 0) {
             int resto = a % b;
             a = b;
@@ -9,6 +9,6 @@ public class Mdc {
     }
 
     public static void main(String[] args) {
-        System.out.println(mdc(24, 36)); // 12
+        System.out.println(Mdc(24, 36)); // 12
     }
 }
