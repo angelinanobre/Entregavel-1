@@ -9,6 +9,6 @@ public class Somatorio {
 
     public static void main(String[] args) {
         int[] numeros = {5, 10, 15, 20};
-        System.out.println(somatorio(numeros)); // 50
+        System.out.println(Somatorio(numeros)); // 50
     }
 }
