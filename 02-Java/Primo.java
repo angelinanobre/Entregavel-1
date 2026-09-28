@@ -1,5 +1,5 @@
 public class Primo {
-    public static boolean esPrimo(int n) {
+    public static boolean Primo(int n) {
         if (n <= 1) return false;
 
         for (int i = 2; i <= Math.sqrt(n); i++) {
@@ -11,7 +11,7 @@ public class Primo {
     }
 
     public static void main(String[] args) {
-        System.out.println(esPrimo(7));  // true
-        System.out.println(esPrimo(10)); // false
+        System.out.println(Primo(7));  // true
+        System.out.println(Primo(10)); // false
     }
 }
