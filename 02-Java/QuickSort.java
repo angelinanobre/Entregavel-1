@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class QuickSort {
-    public static void quicksort(int[] arr, int inicio, int fim) {
+    public static void Quicksort(int[] arr, int inicio, int fim) {
         if (inicio < fim) {
             int pivoIndice = particionar(arr, inicio, fim);
             quicksort(arr, inicio, pivoIndice - 1);
@@ -31,7 +31,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] dados = {10, 7, 8, 9, 1, 5};
-        quicksort(dados, 0, dados.length - 1);
+        Quicksort(dados, 0, dados.length - 1);
         System.out.println(Arrays.toString(dados)); // [1, 5, 7, 8, 9, 10]
     }
 }
